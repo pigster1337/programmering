@@ -20,7 +20,7 @@ int main ()
 }
 
 
-double inmatning(double falt[10])
+double inmatning(double falt[])
 {
  
   
@@ -32,7 +32,7 @@ double inmatning(double falt[10])
   }
 }
 
-double utmatning(double falt[10])
+double utmatning(double falt[])
 {
   
   double y = 0;
