@@ -31,7 +31,7 @@ void ritaromb(int langd, int hojd)
   for(int i = 0; i < hojd; i++)
   {
    
-    for(int i =0; i < langd; i++)
+    for(int x =0; x < langd; x++)
     {
       
      cout << '*'; 
@@ -40,8 +40,13 @@ void ritaromb(int langd, int hojd)
     
     cout << endl;
     
-
     
+    for(int a = 0; a <= i; a++)
+    {
+      
+      cout << ' ';
+      
+    }
     
   }
   cout << endl;
